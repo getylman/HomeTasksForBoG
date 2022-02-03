@@ -47,3 +47,33 @@ int main() {
 	}
 	return 0;
 }
+
+
+/*
+int main() {
+	//char A[1000005];
+	char c;
+	c = getchar();
+	int it = 0, ok = 0;
+	while(c != EOF) {
+		if(c != '0') {
+			ok ++;
+		}
+		if(ok > 1) {
+			printf("%s", S2[(int)c]);
+		}
+		else if(ok == 1) {
+			printf("%s", S1[(int)c]);
+			ok ++;
+		}
+		it ++;
+		c = getchar();
+	}
+	if(ok == 0) {
+		printf("0");
+	}
+	return 0;
+}
+
+
+*/
