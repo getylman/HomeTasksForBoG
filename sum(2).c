@@ -24,4 +24,3 @@ int  main() {
 	printf("%.20Lf", s);
 	return 0;
 }
-s
